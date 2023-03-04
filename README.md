@@ -11,7 +11,7 @@ npm install @kcram-solutions/logger
 // importamos la librería
 const { Logger, LEVEL } = require('@kcram-solutions/logger')
 
-const logger = new Logger();
+const logger = new Logger(?name);
 
 Logger.level = LEVEL.DEBUG // INFO | LOG | WARN | ERROR | CRITICAL
 
@@ -24,6 +24,6 @@ logger.critical('Hola from critical')
 ```
 
 ## Todo:
-- [ ] Formato a los número en fechas y horas
+- [x] Formato a los número en fechas y horas
 - [ ] Agregar color en la salida estandar
 - [ ] Separar archivos para node y navegador
