@@ -11,6 +11,10 @@
     "name": "Marck C. Guzmán",
     "email": "mcarrion@kcramsolutions.com"
   },
+  "repository": {
+    "url": "https://github.com/KcramSolutions/logger",
+    "type": "git"
+  },
   "license": "MIT",
   "devDependencies": {
     "moka": "^0.2.0"
