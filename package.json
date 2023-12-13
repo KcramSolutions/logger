@@ -1,6 +1,6 @@
 {
   "name": "@kcram-solutions/logger",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Logger simple para node y el navegador",
   "main": "./src/main.js",
   "types": "./dist/main.d.ts",
